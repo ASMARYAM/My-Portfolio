@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #232f3e; /* Dark blue, typical AWS color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #232f3e; /* Dark blue, typical AWS color */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Rest of your existing CSS code */
+
+        
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: dodgerblue;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .project-card {
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+        }
+
+        .experience {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .certifications,
+        .projects-section,
+        .seminar {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">ASMA SALEEM</h1>
+        <p class="lead">Software Engineer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#seminar">Seminar</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated and enthusiastic Software Developer with 3 years of experience and passion for using technology to solve business problems in Java, C#, SQL, and Microsoft Dynamics CRM and Android app development.
+            <br>ability to work independently and as part of a team. I specialize in creating efficient and scalable solutions for customer relationship management.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>CRM Development</li>
+            <li>Microsoft Dynamics 365</li>
+            <li>Power Apps and Power Automate</li>
+            <li>SSRS</li>
+            <li>JavaScript</li>
+            <li>HTML5 & CSS</li>
+            <li>SQL</li>
+            <li>.NET</li>
+            <li>RESTful APIs</li>
+            <li>Android with Kotlin and Jetpack compose</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+    
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Software Engineer at Capgemini</h3>
+            <p>Capgemini · Full-time · Apr 2022 - Present</p>
+        </div>
+        <div class="experience-item">
+            <h3>Software Engineer Intern at Cloudindojo Pvt. Ltd</h3>
+            <p>Cloudindojo Pvt. Ltd · Internship · Jan 2020 - Apr 2020</p>
+        </div>
+        <div class="experience-item">
+            <h3>Web Development Intern at Sarvardha Solutions Pvt Ltd</h3>
+            <p>Sarvardha Solutions Pvt Ltd · Internship · Jan 2019 - Aug 2019</p>
+            <p>India</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>BCBSLA</h3>
+                [1-Aug-2022 to 30-Dec-2022]
+                <p> Project BCBSLA leverages Sitecore and .NET technologies to enhance the Blue Cross Blue Shield of Louisiana web portal. JavaScript code enriches user interaction, while Azure technologies ensure scalability and reliability.</p>
+            </div>
+            <div class="project-card">
+                <h3>ADNIC</h3>
+                [22-Mar-2023 to 19-Jan-2024]
+                <p>ADNIC's transformative project centers on Microsoft Dynamics 365, enhancing sales, service, and marketing functions. With Power Automate, Power Apps, and plugins, we automate workflows, ensuring a 360-degree customer view, streamlined processes, and proactive service.</p>
+            </div>
+        <div class="project-card">
+            <h3>HSBC-ProductShelf-AU</h3>
+            [2-Aug-2024 to Present]
+            <p>HSBC ProductShelf-AU project, focusing on delivering seamless user experiences using Kotlin and Jetpack Compose. This project involves developing and enhancing the GX screen, which serves as the entry point for product shelf offerings targeted at the Australian market. </p>
+        </div>
+    </div>
+
+    </section>
+
+
+    
+
+    <section id="seminar" class="seminar">
+        <h2>Seminar</h2>
+        <p>Attended various seminars and workshops on software development and CRM technologies.</p>
+    
+        <h2>Certification and Training</h2>
+        <table style="width:100%; border-collapse: collapse; border: 1px solid #333;">
+            <thead>
+                <tr style="border: 1px solid #333; background-color: #f7f7f7;">
+                    <th style="padding: 10px; border: 1px solid #333;">Certification</th>
+                    <th style="padding: 10px; border: 1px solid #333;">Date</th>
+                    <th style="padding: 10px; border: 1px solid #333;">Organization</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border: 1px solid #333;">
+                    <td style="padding: 10px; border: 1px solid #333;">MS Dynamics</td>
+                    <td style="padding: 10px; border: 1px solid #333;">20-02-2023 to 31-03-2023</td>
+                    <td style="padding: 10px; border: 1px solid #333;">Capgemini</td>
+                </tr>
+                <tr style="border: 1px solid #333;">
+                    <td style="padding: 10px; border: 1px solid #333;">Angular</td>
+                    <td style="padding: 10px; border: 1px solid #333;">16-08-2022 to 07-09-2022</td>
+                    <td style="padding: 10px; border: 1px solid #333;">Capgemini</td>
+                </tr>
+                <tr style="border: 1px solid #333;">
+                    <td style="padding: 10px; border: 1px solid #333;">.Net Core and Microsoft Azure</td>
+                    <td style="padding: 10px; border: 1px solid #333;">19-04-2022 to 29-06-2022</td>
+                    <td style="padding: 10px; border: 1px solid #333;">Capgemini</td>
+                </tr>
+                <tr style="border: 1px solid #333;">
+                    <td style="padding: 10px; border: 1px solid #333;">Android App Development</td>
+                    <td style="padding: 10px; border: 1px solid #333;">1-08-2019 to 08-10-2019</td>
+                    <td style="padding: 10px; border: 1px solid #333;">Internshala (online)</td>
+                </tr>
+                <tr style="border: 1px solid #333;">
+                    <td style="padding: 10px; border: 1px solid #333;">Data Science</td>
+                    <td style="padding: 10px; border: 1px solid #333;">15-07-2019 to 12-09-2019</td>
+                    <td style="padding: 10px; border: 1px solid #333;">Internshala (online)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    
+
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>	> Microsoft Azure Developer Associate A-Z 204 certified. <br>
+                    > Microsoft Dynamics 365 Fundamentals (CRM) MB-910 certified.<br>
+                    > Microsoft Power Platform Fundamentals PL-900 certified.<br>
+                    > Azure Data Engineer Associate DP-203 certified.
+
+                 
+</li>
+            <!-- Add more certifications as needed -->
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me through the following form:</p>
+       
+            <ul>
+                <li>Email: <a href="mailto:asmasaleem752@gmail.com">asmasaleem752@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/asma-saleem-38aba8157/" target="_blank">linkedin.com/in/asma-saleem-38aba8157</a></li>
+                <li>GitHub: <a href="https://github.com/ASMARYAM" target="_blank">github.com/ASMARYAM</a></li>
+            </ul>
+        
+        </section>
+    <footer>  <p> &copy; 2024 Software Engineer Portfolio | Designed by Asma Saleem</p></footer>
+    <script src="script.js"></script> 
+    <!-- Add this script in the head section -->
+
+    
+</body>
+</html>
